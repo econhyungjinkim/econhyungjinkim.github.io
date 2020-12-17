@@ -12,7 +12,7 @@ I am a Ph.D. Candidate in the Department of Economics at University of Pittsburg
 
 My primary research areas are Empirical Industiral Organization, Econometrics, and Applied Microeocnomics. I am particularly interested in Antitrust issues, and regulation on sharing economy.
 
-You can download my CV here.
+You can download my CV [here]({{ https://econjinkim.github.io/ }}/assets/CV_JinKim.pdf).
 
 
 4517 Wesley W.Posvar Hall \\
