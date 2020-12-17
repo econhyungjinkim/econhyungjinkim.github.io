@@ -11,9 +11,9 @@ redirect_from:
 
 <span style="color:blue">Working Paper</span>
 ======
-* B.S. in GitHub, GitHub University, 2012
+* The Welfare Effects of Regulating the Short-Term Rental Market
 * Estimation of Switching Costs for Telecommunication Services and Bundles (with Hyunchul Kim)
 
 <span style="color:blue">Work in Progress</span>
 ======
-
+*  A Structural Estimation of Cartel Formation: Detecting Unobserved Cartels in Canned Tuna Market4
