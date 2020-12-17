@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a 4th year Ph.D. Student in the Department of Economics at University of Pittsburgh.
+I am a Ph.D. Candidate in the Department of Economics at University of Pittsburgh.
 
 My primary research areas are Empirical Industiral Organization, Econometrics, and Applied Microeocnomics. I am particularly interested in Antitrust issues, and regulation on sharing economy.
 
