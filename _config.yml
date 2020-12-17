@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Economics Ph.D. Candidate, University of Pittsburgh"
+title                    : ""
 title_separator          : "-"
 name                     : &name "Hyungjin (Jin) Kim"
 description              : &description "personal description"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Hyungjin (Jin) Kim"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  bio              : "Economics Ph.D. Candidate, University of Pittsburgh"
+  location         : "Pittsburgh, PA"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
