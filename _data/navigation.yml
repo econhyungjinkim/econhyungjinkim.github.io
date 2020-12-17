@@ -2,13 +2,13 @@
 main:
 
   - title: "CV"
-    url: /cv/
+    url: /cv
     
   - title: "Research"
-    url: /research/
+    url: /research
     
   - title: "Scientific Software"  
-    
+     url: /code   
 #  - title: "Publications"
 #    url: /publications/
 
