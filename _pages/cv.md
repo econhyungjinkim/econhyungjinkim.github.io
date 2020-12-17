@@ -8,6 +8,6 @@ redirect_from:
 ---
 
 {% include base_path %}
-\
+
 
 [Click Here]({{ https://econjinkim.github.io/ }}/assets/CV_JinKim.pdf)
