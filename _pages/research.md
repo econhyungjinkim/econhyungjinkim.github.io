@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-\\
+\
 
 <span style="color:blue">Working Paper</span>
 ======
