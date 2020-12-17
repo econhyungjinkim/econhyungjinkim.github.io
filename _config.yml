@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : ""
+title                    : "Hyungjin (Jin) Kim"
 title_separator          : "-"
 name                     : &name "Hyungjin (Jin) Kim"
 description              : &description "personal description"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Hyungjin (Jin) Kim"
+  name             : ""
   avatar           : "profile.png"
   bio              :
   location         : 
