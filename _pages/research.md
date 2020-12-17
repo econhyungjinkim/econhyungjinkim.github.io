@@ -7,8 +7,6 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 \\
 
 <span style="color:blue">Working Paper</span>
