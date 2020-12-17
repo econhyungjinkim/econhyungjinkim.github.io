@@ -13,3 +13,5 @@ I am currently a 4th year Ph.D. Student in the Department of Economics at Univer
 My primary research areas are Empirical Industiral Organization, Econometrics, and Applied Microeocnomics. I am particularly interested in Antitrust issues, and regulation on sharing economy.
 
 E-mail: jin.kim at pitt dot edu
+
+You can download my CV here.
