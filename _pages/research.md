@@ -16,4 +16,4 @@ redirect_from:
 
 <span style="color:blue">Work in Progress</span>
 ======
-*  A Structural Estimation of Cartel Formation: Detecting Unobserved Cartels in Canned Tuna Market4
+*  A Structural Estimation of Cartel Formation: Detecting Unobserved Cartels in Canned Tuna Market
