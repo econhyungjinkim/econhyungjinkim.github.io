@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+\\
+
 <span style="color:blue">Working Paper</span>
 ======
 * B.S. in GitHub, GitHub University, 2012
