@@ -13,7 +13,6 @@ This paper is about the number 2. The number 3 is left for future work.
 [Download paper here](http://academicpages.github.io/files/paper2.pdf)
 
 Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
-
 # Fixed Coefficients Random Utility (Demand) Estimation
 
 This notebook reviews the estimation and inference of a **linear** random utility model when the agent is facing a finite number of alternatives.
@@ -88,9 +87,8 @@ using CSV, DataFrames, Query, DataFramesMeta, FixedEffectModels, Distributions, 
 ```julia
 ENV["COLUMNS"],ENV["LINES"] = 350,50  #This is not specific to Julia, it's a Jupyter notebook environment variable
 
-#dataset = CSV.read("c:\\data\\BLP.csv");  # <---- change this
 dataset = CSV.read("/Users/jinkim/Dropbox/2020 Summer/dropbox_RA_work/Berry/BLP.csv")
-first(dataset,10)
+#first(dataset,10)
 ```
 
     ┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
@@ -246,7 +244,9 @@ print(result)
 
 
 ####  Step 5. Obtain Price elasticities:
+
 Note that own price elasticities $(\eta_j$) is given by: 
+
 \begin{align}
 \eta_j & = \frac{\partial Pr(j)}{\partial price_j} \underbrace{\frac{price_j}{Pr(j)}}_{\frac{price_j}{s_j \times M}} \\
 & \text{Note that} \ \frac{\partial Pr(j)}{\partial price_j} = \frac{\partial s_j}{\partial price_j} \times M  \ \text{where} \ s_j = \frac{e^{\delta_j}}{\sum_k^J e^{\delta_j}}  \\
@@ -883,3 +883,9 @@ print(result_summary)
 ```julia
 
 ```
+
+# Reference
+
+Berry, Steven T. "Estimating discrete-choice models of product differentiation." <em>The RAND Journal of Economics<em> (1994): 242-262.
+
+Berry, Steven, James Levinsohn, and Ariel Pakes. "Automobile prices in market equilibrium." <em>Econometrica: Journal of the Econometric Society<em> (1995): 841-890.
