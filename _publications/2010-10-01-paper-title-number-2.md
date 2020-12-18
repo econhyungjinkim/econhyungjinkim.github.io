@@ -22,14 +22,14 @@ This notebook reviews the estimation and inference of a **linear** random utilit
 ## Introduction
 Consider a set of $J+1$ alternatives $\{0,1,2,...,J\}$. The utility that decision maker (DM) $i$ receives from buying projusct $j$ is
 $$ u_{ij} = x_{ij}' \beta -\alpha p_j + \xi_j+ \epsilon_{ij}.$$
-The DM maximizes her utility
+The Decision Maker maximizes her utility
 $$y_i =\arg \min_{j} u_{ij}.$$
 
 We now assume that $\epsilon_{ij}$ are $i.i.d.$ across DMs and across alternatives. In addition, we assume that $\epsilon_{ij}$ are distributed (standard) T1EV. We can write the following Conditional Choice Probabilities (CCP):
 $$ Pr(y_i = j) = \frac{e^{x_{ij}'\beta}}{\sum_{k=0}^{J}e^{x_{ik}'\beta}}.$$
 
 **Aggregate, market-level data** In Berry, Levinson, and Pakes (1995) and in many other empirical work following BLP the researcher observes only market-level data. That means that the characteristics vector of the alternatives is not indexed by $i$. The variation in product characteristics are unobserved and get absorbed by the error term $\epsilon$. The choice probabilities become
-$$ Pr(y = j|x_j, \xi_j; \beta) \ \text{for} \ j=0,,,J = \frac{e^{x_{j}'\beta}}{\sum_{k=0}^{J}e^{x_{k}'\beta}}.$$
+$$ Pr(y = j|x_j, \xi_j; \beta) \ \text{for} \ j=0,,,J, = \frac{e^{x_{j}'\beta}}{\sum_{k=0}^{J}e^{x_{k}'\beta}}.$$
 The left-hand side is simply the market share of product/alternative $j$. We will denote these market shares as $s_0,s_1,...,s_{J-1}$. The CCP above all have the same denominator. Moreover, for identification reasons, we normalize $x_0 = 0$. Therefore,
 $$ \frac{s_j}{s_0} = e^{x_j'\beta}.$$
 
@@ -43,9 +43,7 @@ where
 - $\delta_j$ is uniquely identified directly from a simple algebraic calculation involving market share.
 - This is a OLS. (We need instruments for the price!)
 
-
 # For the rest of this notebook, we will introduce two empirical examples:
-
 
 ## A. Estimate logit-demand using, BLP(1995)'s aggregate market level data.
 
@@ -97,11 +95,6 @@ dataset = CSV.read("/Users/jinkim/Dropbox/2020 Summer/dropbox_RA_work/Berry/BLP.
     │   caller = read(::String) at CSV.jl:40
     └ @ CSV /Users/jinkim/.julia/packages/CSV/MKemC/src/CSV.jl:40
 
-
-
-
-
-<table class="data-frame"><thead><tr><th></th><th>name</th><th>id</th><th>year</th><th>cy</th><th>dr</th><th>at</th><th>ps</th><th>air</th><th>drv</th><th>p</th><th>wt</th><th>dom</th><th>disp</th><th>hp</th><th>lng</th><th>wdt</th><th>wb</th><th>mpg</th><th>q</th><th>firmids</th><th>euro</th><th>reli</th><th>dfi</th><th>hp2wt</th><th>size</th><th>japan</th><th>cpi</th><th>gasprice</th><th>nb_hh</th><th>cat</th><th>door2</th><th>door3</th><th>door4</th><th>door5</th><th>sampleweight</th><th>mpgd</th><th>dpm</th><th>model</th></tr><tr><th></th><th>String</th><th>Int64</th><th>Int64</th><th>Int64</th><th>Int64</th><th>Int64</th><th>Int64</th><th>Int64</th><th>Int64</th><th>Float64</th><th>Int64</th><th>Int64</th><th>Float64</th><th>Int64</th><th>Float64</th><th>Float64</th><th>Float64</th><th>Float64</th><th>Float64</th><th>Int64</th><th>Int64</th><th>Int64</th><th>Int64</th><th>Float64</th><th>Float64</th><th>Int64</th><th>Float64</th><th>Float64</th><th>Int64</th><th>String</th><th>Int64</th><th>Int64</th><th>Int64</th><th>Int64</th><th>Int64</th><th>Float64</th><th>Float64</th><th>String</th></tr></thead><tbody><p>10 rows × 38 columns</p><tr><th>1</th><td>ACINTE</td><td>3735</td><td>1986</td><td>4</td><td>3</td><td>0</td><td>1</td><td>0</td><td>1</td><td>8.48358</td><td>2249</td><td>0</td><td>97.0</td><td>113</td><td>168.5</td><td>65.6</td><td>96.5</td><td>27.0</td><td>27.807</td><td>3</td><td>0</td><td>5</td><td>0</td><td>0.502446</td><td>1.10536</td><td>1</td><td>109.6</td><td>0.826794</td><td>88458</td><td>compact</td><td>0</td><td>1</td><td>0</td><td>0</td><td>27807</td><td>32.6562</td><td>0.030622</td><td>ACINTE1986</td></tr><tr><th>2</th><td>ACINTE</td><td>4030</td><td>1987</td><td>4</td><td>3</td><td>0</td><td>1</td><td>0</td><td>1</td><td>8.6787</td><td>2326</td><td>0</td><td>97.0</td><td>113</td><td>168.5</td><td>65.6</td><td>96.5</td><td>26.0</td><td>54.757</td><td>3</td><td>0</td><td>5</td><td>0</td><td>0.485813</td><td>1.10536</td><td>1</td><td>113.6</td><td>0.818662</td><td>89479</td><td>compact</td><td>0</td><td>1</td><td>0</td><td>0</td><td>54757</td><td>31.7591</td><td>0.031487</td><td>ACINTE1987</td></tr><tr><th>3</th><td>ACINTE</td><td>4327</td><td>1988</td><td>4</td><td>5</td><td>0</td><td>1</td><td>0</td><td>1</td><td>9.55199</td><td>2390</td><td>0</td><td>97.0</td><td>118</td><td>171.5</td><td>65.6</td><td>99.2</td><td>17.0</td><td>57.468</td><td>3</td><td>0</td><td>5</td><td>0</td><td>0.493724</td><td>1.12504</td><td>1</td><td>118.3</td><td>0.785362</td><td>91066</td><td>compact</td><td>0</td><td>0</td><td>0</td><td>1</td><td>57468</td><td>21.6461</td><td>0.0461978</td><td>ACINTE1988</td></tr><tr><th>4</th><td>ACINTE</td><td>4421</td><td>1989</td><td>4</td><td>2</td><td>0</td><td>1</td><td>0</td><td>1</td><td>10.5403</td><td>2313</td><td>0</td><td>97.0</td><td>118</td><td>168.7</td><td>65.6</td><td>96.5</td><td>26.0</td><td>77.4</td><td>3</td><td>0</td><td>5</td><td>0</td><td>0.51016</td><td>1.10667</td><td>1</td><td>124.0</td><td>0.810081</td><td>92830</td><td>compact</td><td>1</td><td>0</td><td>0</td><td>0</td><td>77400</td><td>32.0956</td><td>0.0311569</td><td>ACINTE1989</td></tr><tr><th>5</th><td>ACINTE</td><td>5421</td><td>1990</td><td>4</td><td>2</td><td>0</td><td>1</td><td>0</td><td>1</td><td>9.14308</td><td>2549</td><td>0</td><td>1.8</td><td>130</td><td>172.9</td><td>67.4</td><td>100.4</td><td>21.0</td><td>83.599</td><td>3</td><td>0</td><td>5</td><td>0</td><td>0.510004</td><td>1.16535</td><td>1</td><td>130.7</td><td>0.875542</td><td>93347</td><td>compact</td><td>1</td><td>0</td><td>0</td><td>0</td><td>83599</td><td>23.9851</td><td>0.0416925</td><td>ACINTE1990</td></tr><tr><th>6</th><td>ACLEGE</td><td>3736</td><td>1986</td><td>6</td><td>4</td><td>0</td><td>1</td><td>1</td><td>1</td><td>17.6077</td><td>2970</td><td>0</td><td>152.0</td><td>151</td><td>189.4</td><td>68.3</td><td>108.6</td><td>20.0</td><td>25.062</td><td>3</td><td>0</td><td>5</td><td>0</td><td>0.508417</td><td>1.2936</td><td>1</td><td>109.6</td><td>0.826794</td><td>88458</td><td>midsize</td><td>0</td><td>0</td><td>1</td><td>0</td><td>25062</td><td>24.1898</td><td>0.0413397</td><td>ACLEGE1986</td></tr><tr><th>7</th><td>ACLEGE</td><td>4031</td><td>1987</td><td>6</td><td>4</td><td>0</td><td>1</td><td>1</td><td>1</td><td>17.8327</td><td>3078</td><td>0</td><td>152.0</td><td>151</td><td>189.4</td><td>68.3</td><td>108.7</td><td>20.0</td><td>54.713</td><td>3</td><td>0</td><td>5</td><td>0</td><td>0.490578</td><td>1.2936</td><td>1</td><td>113.6</td><td>0.818662</td><td>89479</td><td>midsize</td><td>0</td><td>0</td><td>1</td><td>0</td><td>54713</td><td>24.4301</td><td>0.0409331</td><td>ACLEGE1987</td></tr><tr><th>8</th><td>ACLEGE</td><td>4328</td><td>1988</td><td>6</td><td>4</td><td>0</td><td>1</td><td>1</td><td>1</td><td>17.7599</td><td>3067</td><td>0</td><td>163.2</td><td>161</td><td>189.4</td><td>68.3</td><td>108.7</td><td>19.0</td><td>70.77</td><td>3</td><td>0</td><td>5</td><td>0</td><td>0.524943</td><td>1.2936</td><td>1</td><td>118.3</td><td>0.785362</td><td>91066</td><td>midsize</td><td>0</td><td>0</td><td>1</td><td>0</td><td>70770</td><td>24.1927</td><td>0.0413348</td><td>ACLEGE1988</td></tr><tr><th>9</th><td>ACLEGE</td><td>4422</td><td>1989</td><td>6</td><td>4</td><td>0</td><td>1</td><td>1</td><td>1</td><td>18.2258</td><td>3170</td><td>0</td><td>163.0</td><td>160</td><td>190.6</td><td>68.9</td><td>108.7</td><td>19.0</td><td>64.6</td><td>3</td><td>0</td><td>5</td><td>0</td><td>0.504732</td><td>1.31323</td><td>1</td><td>124.0</td><td>0.810081</td><td>92830</td><td>midsize</td><td>0</td><td>0</td><td>1</td><td>0</td><td>64600</td><td>23.4545</td><td>0.0426358</td><td>ACLEGE1989</td></tr><tr><th>10</th><td>ACLEGE</td><td>5422</td><td>1990</td><td>6</td><td>2</td><td>0</td><td>1</td><td>1</td><td>1</td><td>18.9441</td><td>3139</td><td>0</td><td>2.7</td><td>160</td><td>188.0</td><td>68.7</td><td>106.5</td><td>19.0</td><td>53.666</td><td>3</td><td>0</td><td>5</td><td>0</td><td>0.509716</td><td>1.29156</td><td>1</td><td>130.7</td><td>0.875542</td><td>93347</td><td>midsize</td><td>1</td><td>0</td><td>0</td><td>0</td><td>53666</td><td>21.7008</td><td>0.0460811</td><td>ACLEGE1990</td></tr></tbody></table>
 
 
 
@@ -248,7 +241,7 @@ print(result)
 ####  Step 5. Obtain Price elasticities:
 
 Note that own price elasticities $(\eta_j$) is given by: 
-
+$$
 \begin{align}
 \eta_j & = \frac{\partial Pr(j)}{\partial price_j} \underbrace{\frac{price_j}{Pr(j)}}_{\frac{price_j}{s_j \times M}} \\
 & \text{Note that} \ \frac{\partial Pr(j)}{\partial price_j} = \frac{\partial s_j}{\partial price_j} \times M  \ \text{where} \ s_j = \frac{e^{\delta_j}}{\sum_k^J e^{\delta_j}}  \\
@@ -257,7 +250,7 @@ Note that own price elasticities $(\eta_j$) is given by:
 & \eta_j = \underbrace{\frac{\partial Pr(j)}{\partial price_j}}_{M \alpha s_j[1- s_j]} \underbrace{\frac{price_j}{Pr(j)}}_{\frac{price_j}{s_j \times M}} = M \alpha s_j[1- s_j] \times \frac{price_j}{s_j} \frac{1}{M} = \underbrace{\alpha \times (1-s_j) \times price_j}_\text{price elasticities for good j} \\
 & = \alpha \times (1-s_j) \times price_j
 \end{align}
-
+$$
 
 ```julia
 # Following price elasticities, I can derive price elasticities for each good j, using price coefficients alpha.
