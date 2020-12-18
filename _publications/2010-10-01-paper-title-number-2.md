@@ -1,18 +1,3 @@
----
-title: "Paper Title Number 2"
-collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
----
-This paper is about the number 2. The number 3 is left for future work.
-
-[Download paper here](http://academicpages.github.io/files/paper2.pdf)
-
-Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
 # Fixed Coefficients Random Utility (Demand) Estimation
 
 This notebook reviews the estimation and inference of a **linear** random utility model when the agent is facing a finite number of alternatives.
@@ -493,7 +478,7 @@ True parameter is given by:
 ### B2. Obtain (numerically) equilibrium price and market shares (still D.G.P)
 I solve nonlinear equation where under j=1,2. (Argument: $p_1, p_2, s_1(p_1, p_2), s_2(p_1,p_2)$)  $X$ is a vector dupoly firm's product charactersitics $ X = \{ x_1, x_2 \}$
 Note that $s_0 = 1-s_1-s_2$
-
+$$
 \begin{align}
 p_1 & = c_1 - \frac{1}{\alpha (1-s_1)} \\
 p_2 & = c_2 - \frac{1}{\alpha (1-s_2)} \\
@@ -501,6 +486,7 @@ p_2 & = c_2 - \frac{1}{\alpha (1-s_2)} \\
 s_1(X,p_1, p_2) & = \frac{exp^{\beta_0 + \beta_1 x_1 + \sigma_d \xi_1 - \alpha p_1}}{1+exp^{\beta_0 + \beta_1 x_1 + \sigma_d \xi_1 - \alpha p_1} +exp^{\beta_0 + \beta_1 x_2 + \sigma_d \xi_2 - \alpha p_2} } \\
 s_2(X,p_1, p_2) & = \frac{exp^{\beta_0 + \beta_1 x_2 + \sigma_d \xi_2 - \alpha p_2}}{1+exp^{\beta_0 + \beta_1 x_1 + \sigma_d \xi_1 - \alpha p_1} + exp^{\beta_0 + \beta_1 x_2 + \sigma_d \xi_2 - \alpha p_2}}
 \end{align}
+$$
 
 Using Nonlinear solver, we can obtain equilibrium outcome: $p_1, p_2, s_1, s_2 (s_0= 1-s_1-s_2).$ One might concern about multiple equilibria for this game. Since we solve single product under duopoly (which is simple market), we observe unique solution for this Monte Carlo Study. Please see Nalebuff (1991) for multi-product firm problem, or uniquness of this game.
 
