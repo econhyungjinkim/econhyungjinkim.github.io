@@ -12,7 +12,7 @@ redirect_from:
 <span style="color:blue">Working Paper</span>
 ---
 * The Welfare Effects of Regulating the Short-Term Rental Market
-* Estimation of Switching Costs for Telecommunication Services and Bundles (with Hyunchul Kim)
+* Estimation of Switching Costs for Telecommunication Services and Bundles (with Hyunchul Kim) (Draft is coming soon)
 
 <span style="color:blue">Work in Progress</span>
 ---
