@@ -17,7 +17,9 @@ R
 
 Julia
 ======
-[Replication to Monte Carlo Study in Berry (1994)]({{ https://econjinkim.github.io/ }}/assets/Berry.ipynb)
+  <ul>{% for post in site.code %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
 
 Publications
 ======
