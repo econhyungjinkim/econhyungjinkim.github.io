@@ -1,7 +1,7 @@
 ---
 title: "Berry 1994"
 collection: julia
-permalink: /julia/2020-12-18-paper-title-number-1
+permalink: /julia/2020-12-19-paper-title-number-1
 excerpt: 'This paper is about the number 4. The number 4 is left for future work.'
 date: 2015-10-01
 venue: 'Journal 1'
