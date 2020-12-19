@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Code"
+title: "Scientific Software"
 permalink: /code/
 author_profile: true
 redirect_from:
@@ -21,21 +21,8 @@ Julia
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Publications
+Temp
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
- 
