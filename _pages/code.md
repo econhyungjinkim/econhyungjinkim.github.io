@@ -20,9 +20,9 @@ R
 
 
 
-Julia1
+Julia
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
