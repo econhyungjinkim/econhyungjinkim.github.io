@@ -1,7 +1,7 @@
 ---
 title: "Paper Title Number 2"
 collection: julia
-permalink: /julia/2020-12-19-paper-title-number-1.md
+permalink: /julia/2020-12-19-paper-title-number-1
 excerpt: 'This paper is about the number 2. The number 2 is left for future work.'
 date: 2010-10-01
 venue: 'Journal 2'
