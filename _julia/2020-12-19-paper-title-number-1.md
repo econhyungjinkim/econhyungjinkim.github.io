@@ -3,8 +3,6 @@ title: "Replication: Monte Carlo Study in Berry (1994)"
 collection: python
 permalink: /julia/2020-12-19-paper-title-number-1
 excerpt: 'This paper is about the number 2. The number 2 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 2'
 citation: 'Berry, Steven T. &quot;Estimating discrete-choice models of product differentiation .&quot; <i>The RAND Journal of Economics (1994): 242-262.</i>'
 ---
 
