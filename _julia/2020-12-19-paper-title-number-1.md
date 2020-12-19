@@ -1,5 +1,5 @@
 ---
-title: "Berry(1994)"
+title: "Replication: Monte Carlo Study in Berry (1994)"
 collection: julia
 permalink: /julia/2020-12-19-paper-title-number-1
 excerpt: 'This paper is about the number 2. The number 2 is left for future work.'
