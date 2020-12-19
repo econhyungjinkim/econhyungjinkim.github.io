@@ -1,13 +1,13 @@
 ---
-title: "Replication: Monte Carlo Study in EM Algorithm (2011)"
+title: "Replication: Monte Carlo Study in Berry (1994)"
 collection: python
-permalink: /python/2020-12-20-paper-title-number-1
+permalink: /julia/2020-12-19-paper-title-number-1
 excerpt: 'This paper is about the number 2. The number 2 is left for future work.'
-date: 2020-12-20
+date: 2010-10-01
 venue: 'Journal 2'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Arcidiacono, Peter, and Robert A. Miller. &quot;Conditional choice probability estimation of dynamic discrete choice models with unobserved heterogeneity.&quot; <i>Econometrica 79.6 (2011): 1823-1867.</i>'
+citation: 'Berry, Steven T. &quot;Estimating discrete-choice models of product differentiation .&quot; <i>The RAND Journal of Economics (1994): 242-262.</i>
 ---
+
 
 # Fixed Coefficients Random Utility (Demand) Estimation
 
