@@ -9,7 +9,7 @@ paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 citation: 'Berry, Steven T. &quot;Estimating discrete-choice models of product differentiation .&quot; <i>The RAND Journal of Economics (1994): 242-262.</i>
 ---
 
-
+Why not is MD?
 
 # Fixed Coefficients Random Utility (Demand) Estimation
 
