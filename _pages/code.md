@@ -14,6 +14,11 @@ Python
 
 R
 ======
+  <ul>{% for post in site.posts %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+
 
 Julia1
 ======
