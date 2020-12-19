@@ -22,7 +22,7 @@ R
 
 Julia
 ======
-  <ul>{% for post in site.teaching %}
+  <ul>{% for post in site.julia %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
