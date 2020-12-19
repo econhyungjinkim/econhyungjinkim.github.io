@@ -15,7 +15,13 @@ Python
 R
 ======
 
-Julia
+Julia1
+======
+  <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+Julia2
 ======
   <ul>{% for post in site.codes %}
     {% include archive-single-cv.html %}
