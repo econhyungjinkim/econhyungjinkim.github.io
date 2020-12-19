@@ -194,7 +194,7 @@ collections:
 # Defaults
 defaults:
   # _julia
-    - scope:
+  - scope:
       path: ""
       type: julia
     values:
