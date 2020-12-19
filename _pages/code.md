@@ -14,12 +14,9 @@ redirect_from:
 
 
 
-Python
+Python (Will be updated later)
 ======
-
-R
-======
-  <ul>{% for post in site.R %}
+  <ul>{% for post in site.python %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
@@ -29,8 +26,8 @@ Julia
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Temp (Will be updated later)
+R
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.R %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
