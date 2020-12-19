@@ -17,7 +17,7 @@ R
 
 Julia
 ======
-  <ul>{% for post in site.code %}
+  <ul>{% for post in site.codes %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
