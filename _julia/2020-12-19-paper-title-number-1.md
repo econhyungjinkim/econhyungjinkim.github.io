@@ -6,10 +6,8 @@ excerpt: 'This paper is about the number 2. The number 2 is left for future work
 date: 2010-10-01
 venue: 'Journal 2'
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Berry, Steven T. &quot;Estimating discrete-choice models of product differentiation .&quot; <i>The RAND Journal of Economics (1994): 242-262</i>. 1(1).'
+citation: 'Berry, Steven T. &quot;Estimating discrete-choice models of product differentiation .&quot; <i>The RAND Journal of Economics (1994): 242-262.</i>
 ---
-
-Why not md?
 
 # Fixed Coefficients Random Utility (Demand) Estimation
 
