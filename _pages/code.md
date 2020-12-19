@@ -19,7 +19,7 @@ Python
 
 R
 ======
-  <ul>{% for R in site.posts %}
+  <ul>{% for post in site.R %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
