@@ -34,13 +34,13 @@ where
 
 -   $\bar{g}_T$ is the sample moment.
 
--   $W$ is an weighting matrix. (Identity matrix in this problem set)
+-   $W$ is an weighting matrix. (Identity matrix in this problem set)[^2]
 
 Equation (1) tells us that if we have sample moment ($ \bar{g}'_T$) and
 $W$, we can recover parameter $\in (\beta, \alpha)$ by standard
 optimization tool box. Since we already know that we will use $W = I$
 (Identity matrix), the next step is to figure it out $E(g)$ with sample
-moment $\bar{g}_T$.\
+moment $\bar{g}_T$.
 
 **Step 2) Derive analytic population moment**:
 
@@ -57,7 +57,7 @@ Replace MRS with substitution between $c_t$ and $c_{t+1}$ gives us:
 
 $$\begin{aligned}
     E_t \Bigg[ r_{t+1, j} \  \beta \frac{u'(c_{t+1})}{u'(c_t)} \Bigg] &  = 1 \\
-    E_t \Bigg[ \beta r_{t+1, j} \   \frac{u'(c_{t+1})}{u'(c_t)}   -1 \Bigg] &  = 0\end{aligned}$$
+    E_t \Bigg[ \beta r_{t+1, j} \   \frac{u'(c_{t+1})}{u'(c_t)}   -1 \Bigg] &  = 0 \end{aligned}$$
 
 Note that we have subscript $t$ over Expectation. $(E_t (\cdot))$ Let
 $X^*_t$ denote all information set up to $1,... t$, we can write as
@@ -80,7 +80,7 @@ $$E \Bigg[ \Bigg( \beta  r_{t+1, j} \   \frac{u'(c_{t+1})}{u'(c_t)}  -1 \Bigg) \
 
 where $\otimes$ represents the kronecker product.
 
-Proof) Take law of iterated expectation over equation (7) gives us[^2]:
+Proof) Take law of iterated expectation over equation (7) gives us[^3]:
 
 $$\underbrace{E \Bigg[ \Bigg( \beta  r_{t+1, j} \   \frac{u'(c_{t+1})}{u'(c_t)}  -1 \Bigg) \otimes X_t \Bigg]}_\text{equation (7)} \ = E \Bigg(   E \Bigg[ \Bigg( \beta  r_{t+1, j} \   \frac{u'(c_{t+1})}{u'(c_t)}  -1 \Bigg) \otimes X_t \Bigg| X_t \Bigg] \Bigg)$$
 
@@ -145,5 +145,5 @@ dollar values 2) per capita
 
 [^1]: $\gamma = 1-\alpha$ in the paper, I will keep use $\alpha$ from
     now.
-
-[^2]: I do not use properties that equation (7) is equal to zero
+[^2]: For exposition, I assume $W=I$, and one might want to use two-step GMM.
+[^3]: I do not use properties that equation (7) is equal to zero
