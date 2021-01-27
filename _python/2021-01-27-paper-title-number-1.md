@@ -8,8 +8,7 @@ citation: 'Hansen, Lars Peter, and Kenneth J. Singleton. &quot;Generalized instr
 
 This is part of material when I worked as a graduate TA for General Econometrics (Ph.D level)
 
-The whole point of this exercise is to understand each steps so that you can report estimated parameters and their standard errors. To do
-so,
+The whole point of this exercise is to understand each steps so that you can report estimated parameters and their standard errors. To do so, I assume that the readers know how to derive Euler moment conditions in equation (3).
 
 1) We need to derive what is criterion function $J$\
 2) Derive analytic population moment\
