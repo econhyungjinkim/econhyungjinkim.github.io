@@ -1,5 +1,5 @@
 ---
-title: "Replication: GMM in model of consumption and portfolio choices (1982)"
+title: "Replication: Hansen and Singleton (1982)"
 collection: python
 permalink: /python/2021-01-27-paper-title-number-1
 date: 2021-01-27
