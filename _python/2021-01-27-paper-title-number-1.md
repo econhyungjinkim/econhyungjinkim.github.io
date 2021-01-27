@@ -133,6 +133,212 @@ $$\underbrace{J}_\text{1 * 1} \ = T * \underbrace{\underbrace{\bar{g}'_T}_\text{
 
 **Step 4) Load data set and estimate parameter**
 
+```python
+# Import packages and load the data
+import numpy as np
+import pandas as pd
+import numpy.linalg as lin
+import scipy.stats as sts
+import scipy.integrate as intgr
+import scipy.optimize as opt
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+from matplotlib import cm
+%matplotlib inline
+
+from scipy.optimize import minimize
+# This next command is specifically for Jupyter Notebook
+%matplotlib notebook
+
+dir_data = "/Users/jinkim/Dropbox/2020 Spring/General Econometrics/PS/PS5 - GMM/temp-GMM/"
+df = pd.read_stata(dir_data+'merge_temp1.dta')
+```
+
+
+```python
+df.head()
+print(len(df))
+```
+
+    240
+
+
+
+```python
+# Drop 1959 January /February since we use lagged variables.
+
+df1 = df.dropna()
+print(len(df1))
+```
+
+    238
+
+
+
+```python
+# Collect data
+
+instruments = df1[['ratio_nd_1','ratio_nd_2', 'return_bond_1', 'return_bond_2']].values
+c_1 = df1.ratio_nd.values.tolist()
+return_bond = df1.return_bond.values.tolist()
+
+# Parameter example
+beta = 0.9
+alpha = -0.5
+```
+
+
+```python
+# Define Euler equation moments
+
+def sample_1(beta, alpha, t, return_bond, c_1):
+    return  beta * (return_bond[t]*c_1[t]**(alpha)) -1
+```
+
+
+```python
+# Define GMM moments
+
+def sample_moment(beta, alpha, return_bond, c_1,instruments):
+    
+    T = len(df1)
+
+    temp_matrix = np.zeros((len(df1), len(instruments.T)))
+    
+    for t in range (0,T):
+
+        sample = np.array([sample_1(beta, alpha,t,return_bond, c_1) ])
+        temp_matrix[t] = np.kron(sample, instruments[t,:])
+
+    # sum over column and divide by T
+    g_m = (1/T)*temp_matrix.sum(axis=0)
+    return g_m
+
+def moment(x, W, return_bond, c_1,instruments):
+    
+    beta=x[0]
+    alpha=x[1]
+
+    g = sample_moment(beta, alpha,return_bond, c_1,instruments)
+
+    return np.matmul(np.matmul(g,W),g)
+```
+
+
+```python
+# Value example
+
+W=np.identity(len(sample_moment(beta, alpha, return_bond, c_1,instruments)))
+print(W)
+
+moment( [1,-0.5], W,return_bond, c_1,instruments)
+```
+
+    [[1. 0. 0. 0.]
+     [0. 1. 0. 0.]
+     [0. 0. 1. 0.]
+     [0. 0. 0. 1.]]
+
+
+
+
+
+    0.01059379064510586
+
+
+
+
+```python
+res = minimize(moment, [0,0], args = (W,return_bond, c_1,instruments), method='Nelder-Mead', options={'xatol': 1e-7, 'disp': True, 'maxiter': 10000})
+res.x
+```
+
+    Optimization terminated successfully.
+             Current function value: 0.000000
+             Iterations: 163
+             Function evaluations: 304
+    Beta 0.9562674218273375 Alpha -4.5521339157822975
+
+
+
+```python
+print('Beta', res.x[0], 'Alpha', res.x[1])
+```
+
+### Under limited data, alpha values seems to be little bit further from Hansen and Singleton (1982)
+### I want to check how moments are smooth around parameters:
+
+#### I create a 100 by 100 line space and their moment values.
+
+
+```python
+N = 100
+x = np.linspace(0.1, 1.5, N)
+y = np.linspace(-10, 10, N)
+
+Mat =  np.zeros((len(x), len(y)))
+```
+
+
+```python
+for i in range(0,len(x)):
+    for j in range(0,len(y)):
+        Mat[i,j] = moment([x[i],y[j]], W,return_bond, c_1,instruments )
+```
+
+
+```python
+def duplicate_x(testList, n):
+    return [ele for ele in testList for _ in range(n)]
+x_replicate = duplicate_x(x, N)
+print(len(x_replicate))
+
+
+y_replicate_temp = duplicate_x([y],N)
+
+y_replicate = []
+for sublist in y_replicate_temp:
+    for item in sublist:
+        y_replicate.append(item)
+```
+
+    10000
+
+
+### Beta value is minimized around 1.00 and alpha is pretty flat.
+### If you want to take a closer look, please see discussions in https://ocw.mit.edu/courses/economics/14-382-econometrics-spring-2017/lecture-notes/MIT14_382S17_lec4.pdf
+
+
+```python
+%matplotlib inline
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+
+ax.plot([x[68]], [y[12]], [Mat[49,0]], markerfacecolor='k', markeredgecolor='k', marker='o', markersize=10, alpha=1)
+plt.xlabel('Beta', fontsize=15)
+plt.ylabel('Alpha', fontsize=15)
+ax.scatter(x_replicate, y_replicate, Mat, c='r', marker='o', s=0.02)
+```
+
+
+
+
+    <mpl_toolkits.mplot3d.art3d.Path3DCollection at 0x7fe581b34190>
+
+
+
+
+    
+![png](output_14_1.png)
+    
+
+
+
+```python
+
+```
+
+
 
 [^1]: $\gamma = 1-\alpha$ in the paper, I will keep use $\alpha$ from now.
 [^2]: For exposition, I assume $W=I$, and one might want to use two-step GMM.
