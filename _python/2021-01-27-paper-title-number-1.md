@@ -143,7 +143,6 @@ Since Personal Consumption Expenditures in Nondurable Goods expressed as
 total consumption with that year, we need to normalize by 1) current
 dollar values 2) per capita
 
-[^1]: $\gamma = 1-\alpha$ in the paper, I will keep use $\alpha$ from
-    now.
+[^1]: $\gamma = 1-\alpha$ in the paper, I will keep use $\alpha$ from now.
 [^2]: For exposition, I assume $W=I$, and one might want to use two-step GMM.
 [^3]: I do not use properties that equation (7) is equal to zero
