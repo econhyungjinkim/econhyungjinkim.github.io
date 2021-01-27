@@ -6,14 +6,11 @@ date: 2021-01-27
 citation: 'Arcidiacono, Peter, and Robert A. Miller. &quot;Generalized instrumental variables estimation of nonlinear rational expectations models.&quot; <i>Econometrica  (1982): 1269-1286.</i>'
 ---
 
-General Econometrics\
-Spring 2020
+This is part of material when I worked as a graduate TA for General Econometrics (Ph.D level)
 
-Week7 : Recitation
+The whole point of this exercise is to understand each steps so that you can report estimated parameters and their standard errors. To do
+so,
 
-In Question 2, PS 5, the whole point is to understand each steps so that
-you can report estimated parameters and their standard errors. To do
-so,\
 1) We need to derive what is criterion function $J$\
 2) Derive analytic population moment\
 3) Obtain sample moment\
