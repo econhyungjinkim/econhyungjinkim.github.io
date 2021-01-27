@@ -15,7 +15,7 @@ The whole point of this exercise is to understand each steps so that you can rep
 3) Obtain sample moment\
 4) Load data set and estimate parameter
 
-**Step 1) Let’s define criterion function $J(\beta, \alpha)$ with
+## Step 1) Let’s define criterion function $J(\beta, \alpha)$ with
 population moment**:
 
 $$argmax_{\beta, \alpha} \ J(\beta, \alpha) = E ({g}(\beta, \alpha) ' \ W \ E ({g}(\beta, \alpha))$$
