@@ -101,7 +101,7 @@ It gives us population moment as:
 
 $$E \Bigg[ \Bigg( \beta  r_{t+1, j} \   \frac{u'(c_{t+1})}{u'(c_t)}  -1 \Bigg) \otimes X_t \Bigg] = 0$$
 
-**Step 3. Derive sample moment**\
+**Step 3. Derive sample moment**
 
 In practice, information set ($X_t$) is not necessarily “economically
 exogenous”. If we use lagged values from $\frac{c_{t+1}}{c_t}$ and
