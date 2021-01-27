@@ -125,11 +125,11 @@ In a summary, sample moment $\bar{g}_T$ with one dimensional consumption
 (non-durable goods), one type of return $(j=1)$, and information with
 two lags (consumption and 1 year treasury bonds) will be given by:
 
-$$\underbrace{ \bar{g}_T}_\text{1 * 4} \ = \frac{1}{T} \sum_{t=1}^T \underbrace{ \Bigg( \underbrace{\Big[ \beta \ r_{t+1, j} \Big( \frac{c_{t+1}}{c_t} \Big) ^{-\alpha} -1 \Big]}_\text{1 * 1} \otimes  \Bigg[ \underbrace{ \frac{c_t}{c_{t-1}}, \ \frac{c_{t-1}}{c_{t-2}},  \ r_{t, j},\  r_{t-1, j}  \Bigg] }_\text{1 * 4} \Bigg) }_\text{ 1 $\otimes$ 4 \ = 1 * 4}$$
+$$\underbrace{ \bar{g}_T}_\text{1 * 4} \ = \frac{1}{T} \sum_{t=1}^T \underbrace{ \Bigg( \underbrace{\Big[ \beta \ r_{t+1, j} \Big( \frac{c_{t+1}}{c_t} \Big) ^{-\alpha} -1 \Big]}_\text{1 * 1} \otimes  \Bigg[ \underbrace{ \frac{c_t}{c_{t-1}}, \ \frac{c_{t-1}}{c_{t-2}},  \ r_{t, j},\  r_{t-1, j}  \Bigg] }_\text{1 * 4} \Bigg) }_\text{ 1 $\otimes$ 4  = 1 * 4}$$
 
 Criterion function $J$ with $\bar{g}_T $ will be given by:
 
-$$\underbrace{J}_\text{1 * 1} \ = T * \underbrace{\underbrace{\bar{g}'_T}_\text{4*1} \ \underbrace{W}_\text{4*4} \ \underbrace{\bar{g}_T}_\text{1*4}}_\text{1*1}$$
+$$\underbrace{J}_\text{1 * 1} \ = T * \underbrace{\underbrace{\bar{g}'_T}_\text{1*4} \ \underbrace{W}_\text{4*4} \ \underbrace{\bar{g}_T}_\text{4*1}}_\text{1*1}$$
 
 **Step 4) Load data set and estimate parameter**
 
