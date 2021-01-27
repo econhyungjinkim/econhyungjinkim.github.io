@@ -306,7 +306,7 @@ for sublist in y_replicate_temp:
 
 
 ### Beta value is minimized around 1.00 and alpha is pretty flat.
-### If you want to take a closer look, please see discussions in [this link](https://ocw.mit.edu/courses/economics/14-382-econometrics-spring-2017/lecture-notes/MIT14_382S17_lec4.pdf)
+### If you want to take a closer look, please see discussions in [Errata](http://www.e-m-h.org/HaSi84.pdf), and [this link](https://ocw.mit.edu/courses/economics/14-382-econometrics-spring-2017/lecture-notes/MIT14_382S17_lec4.pdf)
 
 
 
