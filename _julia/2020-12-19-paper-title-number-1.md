@@ -483,8 +483,8 @@ $$
 p_1 & = c_1 - \frac{1}{\alpha (1-s_1)} \\
 p_2 & = c_2 - \frac{1}{\alpha (1-s_2)} \\
 & \text{Note that $s_1$, and $s_2$ is given by} \\
-s_1(X,p_1, p_2) & = \frac{exp^{\beta_0 + \beta_1 x_1 + \sigma_d \xi_1 - \alpha p_1}}{1+exp^{\beta_0 + \beta_1 x_1 + \sigma_d \xi_1 - \alpha p_1} +exp^{\beta_0 + \beta_1 x_2 + \sigma_d \xi_2 - \alpha p_2} } \\
-s_2(X,p_1, p_2) & = \frac{exp^{\beta_0 + \beta_1 x_2 + \sigma_d \xi_2 - \alpha p_2}}{1+exp^{\beta_0 + \beta_1 x_1 + \sigma_d \xi_1 - \alpha p_1} + exp^{\beta_0 + \beta_1 x_2 + \sigma_d \xi_2 - \alpha p_2}}
+s_1(X,p_1, p_2) & = \frac{ \text{exp}^{\beta_0 + \beta_1 x_1 + \sigma_d \xi_1 - \alpha p_1}}{1+\text{exp}^{\beta_0 + \beta_1 x_1 + \sigma_d \xi_1 - \alpha p_1} +\text{exp}^{\beta_0 + \beta_1 x_2 + \sigma_d \xi_2 - \alpha p_2} } \\
+s_2(X,p_1, p_2) & = \frac{ \text{exp}^{\beta_0 + \beta_1 x_2 + \sigma_d \xi_2 - \alpha p_2}}{1+\text{exp}^{\beta_0 + \beta_1 x_1 + \sigma_d \xi_1 - \alpha p_1} + \text{exp}^{\beta_0 + \beta_1 x_2 + \sigma_d \xi_2 - \alpha p_2}}
 \end{align}
 $$
 
