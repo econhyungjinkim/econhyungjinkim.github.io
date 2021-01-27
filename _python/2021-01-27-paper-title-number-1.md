@@ -18,11 +18,11 @@ The whole point of this exercise is to understand each steps so that you can rep
 **Step 1) Let’s define criterion function $J(\beta, \alpha)$ with
 population moment**:
 
-$$argmax_{\beta, \alpha} \ J(\beta, \alpha) = E ({g}(\beta, \alpha)) ' \ W \ E ({g}(\beta, \alpha))$$
+$$argmax_{\beta, \alpha} \ J(\beta, \alpha) = E ({g}(\beta, \alpha) ' \ W \ E ({g}(\beta, \alpha))$$
 
 In sample moments:
 
-$$argmax_{\beta, \alpha} \ J(\beta, \alpha) = T \times \bar{g}_T(\beta, \alpha) ' \ W \ \bar{g}_T(\beta, \alpha)$$
+$$argmax_{\beta, \alpha} \ J(\beta, \alpha) = \frac{1}{T} \times \bar{g}_T(\beta, \alpha) ' \ W \ \bar{g}_T(\beta, \alpha)$$
 
 where
 
