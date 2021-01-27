@@ -101,7 +101,7 @@ It gives us population moment as:
 
 $$E \Bigg[ \Bigg( \beta  r_{t+1, j} \   \frac{u'(c_{t+1})}{u'(c_t)}  -1 \Bigg) \otimes X_t \Bigg] = 0$$
 
-**Step 3. Derive sample moment**
+**Step 3) Derive sample moment**
 
 In practice, information set ($X_t$) is not necessarily “economically
 exogenous”. If we use lagged values from $\frac{c_{t+1}}{c_t}$ and
@@ -132,16 +132,8 @@ Criterion function $J$ with $\bar{g}_T $ will be given by:
 
 $$\underbrace{J}_\text{1 * 1} \ = T * \underbrace{\underbrace{\bar{g}'_T}_\text{4*1} \ \underbrace{W}_\text{4*4} \ \underbrace{\bar{g}_T}_\text{1*4}}_\text{1*1}$$
 
-**Normalization**
+**Step 4) Load data set and estimate parameter**
 
-When I construct $\frac{c_{t+1}}{c_t}$, I use the following
-normalization:
-
-$$c_t = \frac{ \text{Personal Consumption Expenditures in Nondurable Goods} * 1,000,000,000 * (100/ \text{Price index in 2019})}{\text{Population} * 1,000}$$
-
-Since Personal Consumption Expenditures in Nondurable Goods expressed as
-total consumption with that year, we need to normalize by 1) current
-dollar values 2) per capita
 
 [^1]: $\gamma = 1-\alpha$ in the paper, I will keep use $\alpha$ from now.
 [^2]: For exposition, I assume $W=I$, and one might want to use two-step GMM.
