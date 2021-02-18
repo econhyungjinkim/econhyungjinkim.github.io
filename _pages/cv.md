@@ -6,4 +6,4 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-[Click Here]({{ https://econjinkim.github.io/ }}/assets/CV_JinKim.pdf)
+[Click Here]({{ https://econgenekim.github.io/ }}/assets/CV_JinKim.pdf)
