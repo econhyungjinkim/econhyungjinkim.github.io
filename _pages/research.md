@@ -23,3 +23,16 @@ abstract
 <span style="color:blue">Work in Progress</span>
 ---
 *  A Structural Estimation of Cartel Formation: Detecting Unobserved Cartels in Canned Tuna Market
+
+
+<details><summary>CLICK ME</summary>
+<p>
+
+#### yes, even hidden code blocks!
+
+```python
+print("hello world!")
+```
+
+</p>
+</details>
