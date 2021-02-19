@@ -13,7 +13,7 @@ redirect_from:
 ---
 * The Welfare Effects of Regulating the Short-Term Rental Market
 * Estimating Switching Costs for Telecommunication Services and Bundles (with [Hyunchul Kim](https://hyunkimecon.github.io/)) 
- 
+** Abstract
 [pdf](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3787321)
 
 
