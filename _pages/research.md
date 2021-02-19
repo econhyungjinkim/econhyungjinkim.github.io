@@ -14,6 +14,9 @@ redirect_from:
 * The Welfare Effects of Regulating the Short-Term Rental Market
 * [Estimating Switching Costs for Telecommunication Services and Bundles](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3787321) (with [Hyunchul Kim](https://hyunkimecon.github.io/)) 
 
+<details>
+  <summary>Click to expand!</summary>
+
 <span style="color:blue">Work in Progress</span>
 ---
 *  A Structural Estimation of Cartel Formation: Detecting Unobserved Cartels in Canned Tuna Market
