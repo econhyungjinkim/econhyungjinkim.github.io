@@ -17,13 +17,8 @@ redirect_from:
 
 > <details><summary>Abstract</summary>  We develop a consumer level demand model of telecommunication and broadcasting services incorporating an exhaustive set of alternatives available to consumers including bundled services. We then estimate switching costs associated with bundled products. Previous studies consider restricted choice sets which are confined to the choices of only one or two services, and abstract away from substitutions between bundled products. In our application using consumer level subscription data, we find that our approach improves the accuracy of switching cost estimates. Our estimates indicate that switching costs associated with bundling are substantial, on average amounting to 65% of the monthly payments for the services. Our counterfactual exercises predicting market shares with and without switching costs for bundled services echo the antitrust concern that firms may transmit market power in one market to other service markets by making a switch of providers costly for bundling subscriptions. </details>
 
-
-### Custom Psragraphs
-
-<p class="comment">
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-</p>
-
+| WARNING: be careful to baz the quux before initializing the retro encabulator! |
+| --- |
 
 <span style="color:blue">Work in Progress</span>
 ---
