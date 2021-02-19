@@ -1,5 +1,5 @@
 ---
-title: "Replication: Monte Carlo Study in EM Algorithm (2011)"
+title: "Replication: Monte Carlo Study in EM Algorithm (2011) (coming soon)"
 collection: python
 permalink: /python/2020-12-20-paper-title-number-1
 date: 2020-12-20
