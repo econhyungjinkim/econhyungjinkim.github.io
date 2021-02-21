@@ -22,4 +22,4 @@ redirect_from:
 -  Dynamic Pricing and Collusive Scheme: Evidence from U.S. Canned Tuna Market
 
 
-   * Pre-Ph.D. work
+&ast Pre-Ph.D. work
