@@ -19,7 +19,7 @@ redirect_from:
 
 <span style="color:blue">Work in Progress</span>
 ---
--  Dynamic Pricing and Collusive Scheme: Evidence from U.S. Canned Tuna Market
+-  Locally Robust Semiparametric Estimation with Unobserved Heterogeneity
 
 
 \* Pre-Ph.D. work
