@@ -10,7 +10,7 @@ redirect_from:
 
 I am a Ph.D. Candidate in the Department of Economics at University of Pittsburgh.
 
-My primary research areas are Empirical Industrial Organization, Econometrics, and Applied Microeocnomics. I am particularly interested in Antitrust issues, and regulation on sharing economy.
+My primary research areas are Empirical Industrial Organization, Applied Econometrics, and Applied Microeocnomics. I am particularly interested in Machine Learning in Structural Econometrics, and Antitrust issues.
 
 You can download my CV [here]({{ https://econgenekim.github.io/ }}/assets/CV_GeneKim.pdf).
 
