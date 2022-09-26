@@ -23,7 +23,7 @@ redirect_from:
 
 <span style="color:blue">Work in Progress</span>
 ---
--  Locally Robust Semiparametric Estimation with Unobserved Heterogeneity
+-  Locally Robust Estimators for Dynamic Discrete Choice Game: Merger and Competition in Retail Pharmacy
 
 
 \* Pre-Ph.D. work
