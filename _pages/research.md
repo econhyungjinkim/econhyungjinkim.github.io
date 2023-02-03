@@ -23,7 +23,7 @@ redirect_from:
 
 <span style="color:blue">Work in Progress</span>
 ---
--  Locally Robust Estimators for Dynamic Discrete Choice Game: Merger and Competition in Retail Pharmacy
+-  Double/Debiased Machine Learning for Static Game with Incomplete Information
 
 
 \* Pre-Ph.D. work
