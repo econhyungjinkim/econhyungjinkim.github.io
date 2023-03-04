@@ -23,7 +23,9 @@ redirect_from:
 
 <span style="color:blue">Work in Progress</span>
 ---
--  Double/Debiased Machine Learning for Static Game with Incomplete Information
+-  Double/Debiased Machine Learning for Static Games with Incomplete Information [early draft](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4377695)
+
+> <details><summary>Abstract</summary>  This paper presents estimation and inference methods for static games with incomplete information using modern machine learning tools. Conventional econometric methods in Bajari et al. (2010), can only be applied with low-dimensional covariates compared to the sample size N. However, when the data includes high-dimensional covariates, using machine learning estimators to recover the nuisance parameters can lead to biases in the structural parameter of interest, θ0, due to regularization and over-fitting. The proposed estimator addresses these biases by characterizing Neyman orthogonal moments and using cross-fitting algorithm. This allows researchers to use machine learning methods like Lasso, Random Forest, or Neural Networks to estimate the first-stage nuisance parameters, leading to a parameter of interest that is √N-consistent and asymptotically normal. Monte Carlo experiments show that without correction of the moment condition, the nuisance parameters estimated from machine learning estimators can cause significant downward biases (toward zero) in the estimates of θ0. The proposed estimator based on orthogonal moment effectively removes these biases, resulting in estimates that are unbiased and centered on the true value.
 
 
 \* Pre-Ph.D. work
