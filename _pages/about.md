@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to my homepage!" \\
+title: "Welcome to my homepage!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-
+<spacer>
 
 My name is Hyungjin (Hyung-Jin) Kim, but everyone simply calls me Jin. I am a Ph.D. Candidate in the Department of Economics at the University of Pittsburgh. 
 
