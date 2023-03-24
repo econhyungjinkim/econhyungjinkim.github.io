@@ -7,4 +7,4 @@ redirect_from:
   - /resume
 ---
 
-[Click Here for Resume]({{ https://econgenekim.github.io/ }}/assets/Resume_Gene.pdf)
+[Click Here for Resume]({{ https://econhyungjinkim.github.io/ }}/assets/Resume_Jin.pdf)
