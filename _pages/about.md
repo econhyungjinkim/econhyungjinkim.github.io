@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-\\
+
 
 My name is Hyungjin (Hyung-Jin) Kim, but everyone simply calls me Jin. I am a Ph.D. Candidate in the Department of Economics at the University of Pittsburgh. 
 
