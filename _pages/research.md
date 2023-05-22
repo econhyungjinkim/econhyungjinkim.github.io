@@ -6,7 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-
+ 
 <span style="color:blue">Publications</span>
 ---
 
