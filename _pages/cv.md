@@ -8,3 +8,4 @@ redirect_from:
 ---
 
 [Click Here for CV]({{ https://econhyungjinkim.github.io}}/assets/CV_JinKim.pdf)
+
