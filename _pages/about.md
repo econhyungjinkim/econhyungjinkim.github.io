@@ -11,7 +11,14 @@ redirect_from:
 
 My name is Hyungjin (Hyung-Jin) Kim, but everyone simply calls me Jin. I am a Ph.D. Candidate in the Department of Economics at the University of Pittsburgh. 
 
-My research interests include Industrial Organization and Applied Econometrics. Specifically, I am interested in integrating Machine Learning techniques with Structural Econometrics, particularly in the context of Industrial Organization applications.
+I am on the job market this 2023-24 academic year and will be available for interviews.
+
+I am an applied microeconomist with expertise in the fields of Empirical Industrial Organization and Health Economics.
+
+
+Primary Field: Empirical Industrial Organization, Health Economics
+Secondary Field: Machine Learning, Applied Econometrics
+
 
 4523 Wesley W.Posvar Hall \\
 230 South Bouquet Street Pittsburgh \\
