@@ -22,7 +22,7 @@ redirect_from:
 
 > <details><summary>Abstract</summary>  This paper develops estimation and inference methods for game-theoretic models with many covariates. The methods combine the double/debiased machine learning (DML) framework with static games with incomplete information structure as in Bajariet al. (2010b). I provide valid inferences for low-dimensional parameters of interest in the presence of high-dimensional nuisance parameters when using machine learning estimators. An empirical application studies the growing issue of limited pharmacy access in rural Midwestern United States. The paper finds that the decline of independent pharmacies is associated with the new entry of chain pharmacies which leads to more limited pharmacy access. The effects are more pronounced in elderly towns. Using the static games of independent pharmacies, this paper finds that the effect of the rival independent pharmacy is 1.5 times larger using the developed estimator compared to Bajari et al. (2010b)’s estimator. I further find that the predictive performance of machine learning methods plays an important role in this difference. The first counterfactual simulation studies the role of new chain pharmacies in the local market structure. In the second counterfactual experiment, this paper evaluates the effect of the proposed subsidy program on improving limited pharmacy access, similar to the physician bonus program for Medicare-related services targeting areas with limited medical access. </details>
 
-\
+
 
 - The Welfare Effects of Regulating the Short-Term Rental Market
  
