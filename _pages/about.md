@@ -16,8 +16,9 @@ I am on the job market this 2023-24 academic year and will be available for inte
 I am an applied microeconomist with expertise in the fields of Empirical Industrial Organization and Health Economics.
 
 
-Primary Field: Empirical Industrial Organization, Health Economics
-Secondary Field: Machine Learning, Applied Econometrics
+Primary Field: Empirical Industrial Organization, Health Economics, and Machine Learning \\
+
+Secondary Field: Applied Econometrics
 
 
 4523 Wesley W.Posvar Hall \\
