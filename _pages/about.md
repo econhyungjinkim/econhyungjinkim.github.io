@@ -9,19 +9,18 @@ redirect_from:
 ---
 
 
-My name is Hyungjin (Hyung-Jin) Kim, but everyone simply calls me Jin. I am a Ph.D. Candidate in the Department of Economics at the University of Pittsburgh. 
+My name is Hyungjin (Hyung-Jin) Kim, but everyone simply calls me Jin. 
 
-I am an applied microeconomist with research interests in Empirical Industrial Organization, Health Economics, and Machine Learning.
-
-I am on the job market this 2023-24 academic year and will be available for interviews.
+I am a Ph.D. Candidate in the Department of Economics at the University of Pittsburgh. I am an applied microeconomist with research interests in Empirical Industrial Organization, Health Economics, and Machine Learning.
 
 Primary Field: Empirical Industrial Organization, Health Economics, and Machine Learning
 
 Secondary Field: Applied Econometrics
 
 
-4523 Wesley W.Posvar Hall 
+I am on the job market this 2023-24 academic year and will be available for interviews.
 
-230 South Bouquet Street Pittsburgh 
 
+4523 Wesley W.Posvar Hall \\
+230 South Bouquet Street Pittsburgh \\
 PA 15260
