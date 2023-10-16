@@ -18,6 +18,8 @@ Primary Field: Empirical Industrial Organization, Health Economics, and Machine 
 Secondary Field: Applied Econometrics
 
 
-4523 Wesley W.Posvar Hall \\
-230 South Bouquet Street Pittsburgh \\
+4523 Wesley W.Posvar Hall 
+
+230 South Bouquet Street Pittsburgh 
+
 PA 15260
