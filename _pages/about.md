@@ -15,7 +15,7 @@ I am an applied microeconomist and a Ph.D. Candidate in the Department of Econom
 
  <strong>Primary Field</strong>: Empirical Industrial Organization, Health Economics, and Machine Learning
 
- <strong>Secondary Field</strong>: Applied Economics, Applied Econometrics
+ <strong>Secondary Field</strong>: Applied Microeconomics, Applied Econometrics
 
 
 I am on the job market this 2023-24 academic year and will be available for interviews.
