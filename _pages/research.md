@@ -25,6 +25,12 @@ redirect_from:
 
 
 - Horizontal Merger and Post-Entry Market Structure: Evidence from Acquisition in the Retail Pharmacy Market (Drafts will be updated soon.)
- 
+> <details><summary>Abstract</summary>  This paper introduces a new method for the estimation and inference of static discrete game models that include many market characteristics. In estimating strategic interactions,  applied researchers often face the challenge of selecting relevant firm or market characteristics. To address challenges and allow data-driven covariate selection, I incorporate double/debiased machine learning (DML) into static games with incomplete information. The empirical application of this approach focuses on the strategic interactions of pharmacies and their impact on access in rural areas. The decline of independent pharmacies, driven by the proliferation of chain pharmacies, has resulted in reduced pharmacy accessibility in rural areas. I employ the newly developed estimator to recover the parameters of rival effects. I find that the impact of a competing independent pharmacy is 50% larger using the methods I developed compared to the traditional estimators. This significant difference stems from the fact that ML methods are particularly effective at automatically detecting and incorporating complex, non-linear interactions between covariates, thereby enhancing predictive powers. Counterfactual scenarios provide insights for policy interventions targeted at improving the limited access to pharmacies in rural towns. </details>
+
+ <p align="center">
+  <img src="https://econhyungjinkim.github.io/assets/CSDID_total_pharm.png" alt="CSDID Total Pharm" width="300"/>
+  <img src="https://econhyungjinkim.github.io/assets/CSDID_new_entry.png" alt="CSDID New Entry" width="300"/>
+</p>
+
 
 \* Pre-Ph.D. work
