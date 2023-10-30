@@ -6,9 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
- 
-<span style="color:blue">Teaching Experiences</span>
----
+ ---
 
 - Instructor:
   - Applied Econometrics, Summer 2020
@@ -26,4 +24,4 @@ redirect_from:
   - Game Theory
   - Applied Econometrics
 
-* Teaching evaluations are available upon requests.
+* Teaching evaluations are available upon request.
