@@ -7,8 +7,8 @@ main:
   - title: "Research"
     url: /research/
     
-  - title: "Scientific Software"  
-    url: /code/
+#  - title: "Scientific Software"  
+#    url: /code/
     
 #  - title: "Publications"
 #    url: /publications/
@@ -16,8 +16,8 @@ main:
 #  - title: "Talks"
 #    url: /talks/    
 
-#  - title: "Teaching"
-#    url: /teaching/    
+  - title: "Teaching"
+    url: /teaching/    
     
 #  - title: "Portfolio"
 #    url: /portfolio/
