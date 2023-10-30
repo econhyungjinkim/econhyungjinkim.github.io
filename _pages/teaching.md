@@ -9,7 +9,7 @@ redirect_from:
  ---
 
 - Instructor:
-  - Applied Econometrics, Summer 2020
+  - Applied Econometrics, Summer 2021
     - Undergraduate level
     - Teaching Evaluation: 4.63/5.0
     - Syllabus
