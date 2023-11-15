@@ -20,9 +20,11 @@ Please find my CV [here](https://www.dropbox.com/scl/fi/3115ihdkydrrqj4yoband/CV
 
 Research Interests:
 
- <strong>Primary Field</strong>: Empirical Industrial Organization, Health Economics, and Machine Learning
+ <strong>Primary Field</strong>
+ - Empirical Industrial Organization, Health Economics, and Machine Learning
 
- <strong>Secondary Field</strong>: Applied Microeconomics, Applied Econometrics
+ <strong>Secondary Field</strong>
+ - Applied Microeconomics, Applied Econometrics
 
 
 
