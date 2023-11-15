@@ -18,7 +18,7 @@ I am interested in exploring questions at the intersection of Industrial Organiz
 Please find my CV [here](https://www.dropbox.com/scl/fi/3115ihdkydrrqj4yoband/CV_HJ_Kim.pdf?rlkey=7iy8c5wu03mzavgt6czom6i3d&dl=0) and the latest version of my Job Market Paper [here](https://www.dropbox.com/scl/fi/87rbv5kq5t2sxymz6acva/JMP_HJ_Kim.pdf?rlkey=fhs1hggnb6vmu2u9ncymn67u6&dl=0).
 
 
-Research Interests:
+<h2>Research Interests</h2>:
 
  <strong>Primary Field</strong>
  - Empirical Industrial Organization, Health Economics, and Machine Learning
