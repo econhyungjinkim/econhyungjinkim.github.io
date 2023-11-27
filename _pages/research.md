@@ -26,7 +26,7 @@ redirect_from:
 
 - "Welfare Effects of Chain Pharmacy Expansion and Pharmacy Access"
 
-> <details><summary>Abstract</summary> AAA
+> <details><summary>Abstract</summary> This paper examines the impact of the expansion of chain pharmacies on consumer welfare. Anecdotal evidence presents mixed predictions. It suggests that the elderly population might be the most affected, potentially losing consumer welfare due to difficulties in accessing more distant pharmacies because of higher transportation costs. Conversely, consumers could benefit from competitive pricing and higher-quality services offered by chain pharmacies. Preliminary results suggest that the impact of chain pharmacies' expansion on pricing, along with an expanded choice set, could benefit the majority of consumers, especially those with minimal mobility costs. Full structural models could propose and compare various government interventions. These policies include physician bonus programs, pharmacy student loan programs in rural areas, and subsidies for entry costs. Since structural analysis does not require post-policy analysis, the welfare assessment will inform policymakers about the most cost-effective policies to improve access to prescriptions at low costs.
 
 - "Machine Learning for Dynamic Games" (with [Arie Beresteanu](https://sites.pitt.edu/~arie/))
 
