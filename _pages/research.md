@@ -30,6 +30,6 @@ redirect_from:
 
 - "Machine Learning for Dynamic Games" (with [Arie Beresteanu](https://sites.pitt.edu/~arie/))
 
-> <details><summary>Abstract</summary> This paper develops estimation and inference methods for dynamic games with high-dimensional controls. Building on the work of Kim (2023), the methods integrate the double/debiased machine learning (DML) approach with the dynamic discrete games model of Aguirregabiria \& Mira  (2007). We provide valid inference for low-dimensional parameters of interest in the presence of high-dimensional nuisance parameters when implementing machine learning estimators including Random Forest, Lasso, Elastic Net, and Boosting Methods. The proposed estimator is shown to be consistent and asymptotically normal.
+> <details><summary>Abstract</summary> This paper develops estimation and inference methods for dynamic games with high-dimensional controls. Building on the work of Kim (2023), the methods integrate the double/debiased machine learning (DML) approach with the dynamic discrete games model of Aguirregabiria & Mira  (2007). We provide valid inference for low-dimensional parameters of interest in the presence of high-dimensional nuisance parameters when implementing machine learning estimators including Random Forest, Lasso, Elastic Net, and Boosting Methods. The proposed estimator is shown to be consistent and asymptotically normal.
 
 \* Pre-Ph.D. work
