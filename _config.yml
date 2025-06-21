@@ -82,12 +82,12 @@ analytics:
 author:
   name             : ""
   avatar           : "profile.png"
-  bio              : 'jin.kim@pitt.edu'
+  bio              : 'jin.kim@kdi.re.kr'
   location         : 
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : 'https://scholar.google.com/citations?user=Y2M9iSoAAAAJ&hl=en&oi=sra'
-  email            :  'jin.kim@pitt.edu'
+  email            :  'jin.kim@kdi.re.kr'
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
