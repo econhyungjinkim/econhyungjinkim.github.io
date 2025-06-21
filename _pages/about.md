@@ -9,9 +9,9 @@ redirect_from:
 ---
 
 
-My name is Hyungjin (Hyung-Jin) Kim, but everyone simply calls me Jin. 
+My name is Hyungjin (Hyung-Jin) Kim, and Associate Fellow at [Korea Development Institute (KDI)](https://www.kdi.re.kr/eng/)
 
-I am interested in exploring questions at the intersection of Industrial Organization, Health Economics, and Machine Learning. I received my Ph.D. in Economics from the University of Pittsburgh. I will be joining [Korea Development Institute (KDI)](https://www.kdi.re.kr/eng/) as a Research Associate Fellow this fall.
+I am interested in exploring questions at the intersection of Industrial Organization, Health Economics, and Machine Learning. I received my Ph.D. in Economics from the University of Pittsburgh. 
 
 Please find my CV [here](https://www.dropbox.com/scl/fi/3115ihdkydrrqj4yoband/CV_HJ_Kim.pdf?rlkey=7iy8c5wu03mzavgt6czom6i3d&dl=0)
 
@@ -22,8 +22,3 @@ Please find my CV [here](https://www.dropbox.com/scl/fi/3115ihdkydrrqj4yoband/CV
 
  <strong>Secondary Field</strong>
  - Applied Microeconomics, Applied Econometrics
-
-
-4523 Wesley W.Posvar Hall \\
-230 South Bouquet Street Pittsburgh \\
-PA 15260
