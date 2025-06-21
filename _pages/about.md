@@ -13,7 +13,7 @@ My name is Hyungjin (Hyung-Jin) Kim, and Associate Fellow at [Korea Development 
 
 I am interested in exploring questions at the intersection of Industrial Organization, Health Economics, and Machine Learning. I received my Ph.D. in Economics from the University of Pittsburgh. 
 
-Please find my CV [here](https://www.dropbox.com/scl/fi/3115ihdkydrrqj4yoband/CV_HJ_Kim.pdf?rlkey=7iy8c5wu03mzavgt6czom6i3d&dl=0)
+Please find my CV [here](https://www.dropbox.com/scl/fi/3115ihdkydrrqj4yoband/CV_HJ_Kim.pdf?rlkey=7iy8c5wu03mzavgt6czom6i3d&dl=0).
 
 <h2>Research Interests</h2>
 
